@@ -1,6 +1,7 @@
 /* work sans font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+
 * {
 
     font-family: 'Work Sans', sans-serif;
@@ -18,6 +19,7 @@
 }
 
 header {
+    
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
@@ -91,4 +93,28 @@ nav li a {
         flex-direction: column;
     }
     
+}
+/* main */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* teams style */
+.teams-container{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 85px;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-right: 70x;
+    padding-left: 70px;
+}
+.teams-content-title{
+    font-size: 2.8rem;
 }
